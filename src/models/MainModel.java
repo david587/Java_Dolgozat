@@ -24,4 +24,6 @@ public class MainModel {
         new Student(8, "Ete Levente", 3),
         new Student(9, "Erős István", 3),
     };
+    public Vector<Student> studentList =
+        new Vector<>(Arrays.asList(studentArray));
 }

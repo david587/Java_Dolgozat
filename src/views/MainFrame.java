@@ -10,7 +10,7 @@ import javax.swing.JPanel;
 public class MainFrame extends JFrame {
     JPanel mainPanel;
     public DefaultComboBoxModel<String> groupModel;
-    JComboBox<String> groupCombo;
+    public JComboBox<String> groupCombo;
     public MainFrame() {
         this.setMainComponent();
         this.setMainPanel();
