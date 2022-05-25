@@ -9,6 +9,7 @@ public class MainController {
     public MainController() {
         this.mainFrame = new MainFrame();
         this.mainModel = new MainModel();
+        this.mainFrame.groupModel.addElement("Válasszon osztályt");
         this.mainModel.groupList.forEach(group ->{
             this.mainFrame.groupModel.addElement(group.name);            
         });
@@ -20,11 +21,13 @@ public class MainController {
     private void onActionGroupCombo() {
         int index = this.mainFrame.groupCombo.getSelectedIndex();
         // System.out.println(index);
-        int selectedGroupId = index + 1;
+        int selectedGroupId = index;
+        this.mainFrame.studentModel.clear();
         this.mainModel.studentList.forEach(student -> {
             
             if(selectedGroupId == student.groupId) {
                 System.out.println(student.name);
+                this.mainFrame.studentModel.addElement(student.name);
             }
         });
     }
