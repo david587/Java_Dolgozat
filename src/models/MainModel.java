@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Vector;
 
 public class MainModel {
-
     Group[] groupArray = {
         new Group(1, "Szoftvertesztelő"),
         new Group(2, "Szoftverfejlesztő"),
