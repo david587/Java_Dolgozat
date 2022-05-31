@@ -1,3 +1,3 @@
-# Template program
+## Combobox - Dolgozat
 
-Template leírás
+# Beosztások megjelenitése comboboxba
