@@ -11,10 +11,10 @@ package models;
 
 public class Group {
     public int id;
-    public String name;
-    public Group(int id, String name) {
+    public String beosztas;
+    public Group(int id, String beosztas) {
         this.id = id;
-        this.name = name;
+        this.beosztas = beosztas;
     }
     
 }

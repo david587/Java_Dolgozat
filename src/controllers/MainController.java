@@ -20,7 +20,7 @@ public class MainController {
         this.mainModel = new MainModel();
         this.mainFrame.groupModel.addElement("Válasszon Beosztást");
         this.mainModel.groupList.forEach(group ->{
-            this.mainFrame.groupModel.addElement(group.name);            
+            this.mainFrame.groupModel.addElement(group.beosztas);            
         });
        // this.setEvents();
     }
