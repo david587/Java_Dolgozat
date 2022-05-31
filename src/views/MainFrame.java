@@ -39,12 +39,16 @@ public class MainFrame extends JFrame {
     private void setMainPanel() {
         this.mainPanel = new JPanel();
         this.mainPanel.setLayout(new BorderLayout());
+       
         this.mainPanel.add(this.groupCombo,BorderLayout.NORTH);
         this.mainPanel.add(this.scrollPane, BorderLayout.CENTER);
     }
     private void setMainFrame() {
         this.add(this.mainPanel);
+        // this.frame = new JFrame("Baráth Dávid/Ssoft 1 N/2022.05.31");
+        // this.frame.setTitle("Baráth Dávid/Ssoft 1 N/2022.05.31");
         this.setLayout(new FlowLayout());
+        this.setTitle("Baráth Dávid/Ssoft 1 N/2022.05.31");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(400, 300);
         this.setVisible(true);
