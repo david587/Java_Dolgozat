@@ -22,6 +22,7 @@ public class MainController {
         this.mainModel.groupList.forEach(group ->{
             this.mainFrame.groupModel.addElement(group.beosztas);            
         });
+        
        // this.setEvents();
     }
     // private void setEvents() {
