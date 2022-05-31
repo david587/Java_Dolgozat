@@ -57,7 +57,7 @@ public class MainFrame extends JFrame {
         // this.frame = new JFrame("Baráth Dávid/Ssoft 1 N/2022.05.31");
         // this.frame.setTitle("Baráth Dávid/Ssoft 1 N/2022.05.31");
         this.setLayout(new FlowLayout());
-        this.setTitle("Baráth Dávid/Ssoft 1 N/2022.05.31");
+        this.setTitle("Baráth Dávid/Szoft 1 N/2022.05.31");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(400, 300);
         this.setVisible(true);
